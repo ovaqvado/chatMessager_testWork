@@ -1,5 +1,16 @@
+@import url('./styles/variables_color.css');
+
+@font-face {
+	font-family: 'IBM Plex Sans';
+	src: url(./fonts/IBMPlexSans-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
 body,
 html {
+	height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	top: 0;
@@ -10,6 +21,9 @@ html {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: var(--body-color);
+	font-size: 16px;
+	font-family: 'IBM Plex Sans', serif;
 }
 
 h1,

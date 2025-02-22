@@ -1,0 +1,39 @@
+:root {
+	/* Color */
+	--white: #ffffff;
+	--dark-blue: #222b44;
+	--grey-blue: #313e62;
+	--light-blue: #1c64f2;
+
+	/* Body color */
+	--body-color: #0e0c15;
+
+	/* Input color */
+	--input-bg-color: #121825;
+	--input-text-color: #616d8d;
+
+	/* Border color */
+	--border-select-primary: 1px solid var(--grey-blue);
+
+	/* Button color and shadow */
+	--button-primary-bg-color: var(--light-blue);
+	--button-shadow: 0px 1px 1px 0px #ffffff66 inset;
+
+	/* Fonts color */
+	--fonts-primary-color: var(--white);
+	--placeholder-primary-color: #616d8d;
+
+	/* DropDown-lang color */
+	--dropdown-lang-select-color: var(--grey-blue);
+
+	/* DropDownChat color */
+	--dropdown-chat-select-color: var(--dark-blue);
+
+	/* Icon border*/
+	--icon-border: 1.5px solid;
+	--icon-border-color: linear-gradient(
+		90deg,
+		var(--light-blue) -0.39%,
+		#d41cf2 99.61%
+	);
+}
